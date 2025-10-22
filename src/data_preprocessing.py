@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-
+filepath = "data/raw/retail_customers.csv"
 def load_data(filepath):
     return pd.read_csv(filepath)
 
